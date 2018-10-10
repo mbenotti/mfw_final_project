@@ -1,2 +1,2 @@
 # mfw_final_project
-repository for mobile friendly websites - final project 2018
+Repository for Mobile Friendly Websites - Final Project 2018
