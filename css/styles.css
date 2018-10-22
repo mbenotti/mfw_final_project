@@ -1,13 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Actor|La+Belle+Aurore');
+
 body {
   font-family: 'Actor', sans-serif;
   font size: 20px;
+  overflow: hidden;
 }
-.nav-tabs {
-  font-family: 'La Belle Aurore', cursive;
+.container-fluid-top {
+  height: 110px;
+  background-color: #1d4fba;/*color royal blue*/
+}
+.container-logo {
+  width: 40%;
+  height: 100px;
+  margin-top: 7px;
+}
+.logo {
+  height: 90px;
+}
+.nav {
+  width: 55%;
+}
+.nav-pills, li, a {
+  font-weight: bold;
   font size: 25px;
+  float: right;
+  background-color: transparent;
+  color: #fff;
 }
+.container-fluid-jumbo {
+  height: 500px;
+  background-image: url(../img/keyboard_cropped.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.jumbotron {
+  width: 80%;
+  margin-top: 10px;
+  font size: 30px;
+  background-color: rgba(20,20,20,0.5);
+  align-self: flex-end;
+}
+.jumbotron h1 {
+  color: #1d4fba;/*color royal blue*/
+  text-shadow: 1px 1px 5px #fff;
+}
+.jumbotron p {
+  color: #fff;
+}
+.pep-info {
 
+}
 .fine-print {
   font-family: 'La Belle Aurore', cursive;
+  color:  #1d4fba;/*color royal blue*/
 }
