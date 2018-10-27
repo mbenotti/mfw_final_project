@@ -12,81 +12,134 @@
 </head>
 
 <body>
-  <div class="container-fluid-top">
+  <div class="container-fluid container-fluid-top">
     <div class="container">
       <div class="container container-logo pull-left">
         <img src="img/mkcreationslogowhitecropped.png" alt="MKCreations logo" class="logo img-responsive">
       </div>
       <div class="container container-top">
         <ul class="nav nav-pills nav-justified">
-          <li role="presentation" class="active"><a href="#">Home Page</a></li>
-          <li role="presentation"><a href="#">About</a></li>
-          <li role="presentation"><a href="#">Photo Gallery</a></li>
-          <li role="presentation"><a href="#">Project Gallery</a></li>
-          <li role="presentation"><a href="#">Contact Info</a></li>
+          <li role="presentation" class="active"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="#myCarousel">About</a></li>
+          <li role="presentation"><a href="gallery.html">Gallery</a></li>
+          <li role="presentation"><a href="#contact">Contact Info</a></li>
         </ul>
       </div>
     </div>
   </div>
+  <!-- Navigation ENDS -->
+  <!-- Front page STARTS -->
   <div class="container-fluid container-fluid-jumbo">
     <div class="container container-jumbo">
       <div class="jumbotron pull-left">
       <h1>Mary Benotti RN, MBA</h1>
-      <p>Experienced Health Informatics Nurse with a background in Critical and Emergency Care;</p>
+      <p>Experienced Health Informatics Nurse with a background in Critical and Emergency Care</p>
       <p>Aspiring Photographer and Web Developer</p>
       </div>
     </div>
   </div>
-  <div class="container-fluid container-about">
-    <div class="row pep-info">
-      <div class="col-md-4 col-xs-12">
-        <h1>Professional</h1>
+  <!-- Front page ENDS -->
+  <!-- Carousel STARTS -->
+  <div class="container-fluid wrap">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="myCarousel" data-slide-to="1"></li>
+				<li data-target="myCarousel" data-slide-to="2"></li>
+			</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item main_img1 active">
+				<div class="carousel-caption main-page">
+          <h1>Professional Background</h1>
+          <p>I am an experienced RN who has worked for industry leading HealthCare systems such as Stanford University, Sutter Health and Tenet</p>
+          <p>As an Informatics nurse, I have led system implementation and optimization; done validation testing, coordinated education and created job aids, as well as data anlytics. I have also worked very closely with Quality and Pharmacy on Leapfrog testing, Meaningful Use, and eCQM.</p>
+          <p>As a clinical nurse, I have helped develop new service lines, including becoming a designated Stroke receiving center; collected data for clinical trials, mentoerd multiple new nurses</p>
+          </P>
+				</div>
       </div>
-      <div class="col-md-4 col-xs-12">
-        <h1>Education</h1>
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <h1>Personal</h1>
-      </div>
+			<div class="item main_img2">
+				<div class="carousel-caption ed-page">
+          <img src="img/Fresno_State_logo.png" alt="Fresno State logo" class="csuf">
+          <img src="img/NYIT_logo.png" alt="NYIT logo" class="nyit">
+          <img src="img/UC_Davis_logo.png" alt="UC Davis logo" class="ucd">
+					<h1>Education History</h1>
+					<p>Alumni of California State University, Fresno - Bachelor of Science in Nursing (1987)</p>
+          <p>New York Instutute of Technology - Master's in Business Administration (2004)</p>
+          <p>University of California, Davis - Certificate in Health Informatics (2012)</p>
+          <p>Currently enrolled in computer coding classes at GeekWise Academy, Fresno</p>
+          <img src="img/geekwise.png" alt="GeekWise Academy" class="gwa">
+        </div>
+			</div>
+			<div class="item main_img3">
+				<div class="carousel-caption">
+          <div class="aspire-page">
+            <img src="img/mkcreationslogowhite.png" alt="MKCreations logo" class="img-responsive mkc_logo">
+					  <h1>Personal Aspirations</h1>
+            <p>To be a Photographer and Web Developer</p>
+            <p>And to enjoy a healthy mix of Art & Technology</p>
+            <p><a href="gallery.html" class="btn btn-lg btn-primary" role="button">Gallery</a></p>
+          </div>
+				</div>
+			</div>
+		</div>
+		<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		</div>
+	</div>
+  <!-- Carousel ENDS -->
+  <div class="container-fluid container-fluid-art">
+    <div class="row wordart">
+      <img src="img/nurse_wordart.png" alt="Nurse Word Art" class="img-responsive wordart">
     </div>
   </div>
-  <footer class="container-fluid container-fluid-footer">
+  <footer id="contact" class="container-fluid container-fluid-footer">
     <div class="row centered">
-			<div class="col-xs-6 col-sm-1 col-sm-offset-1">
-				<img src="img/mkcreationslogocropped.png" alt="MKCreations Logo" class="logo">
+			<div class="col-xs-3 col-sm-1 col-sm-offset-1">
+				<img src="img/mkcreationslogowhitecropped.png" alt="MKCreations Logo" class="logo">
 			</div>
-			<div class="col-xs-4 col-sm-4 col sm-offset-1 contact-info">
+			<div class="col-xs-3 col-sm-3 col-sm-offset-2 contact-info">
 				<address>
-					<a href="#">
+					<p>
 						Mary Benotti RN, MBA<br>
 						Fresno, CA <br>
-					</a>
-					<a href="#">Send email to Mary Benotti</a>
+            555-555-5555
+					</p>
+					<p>Send emails to mary.benotti@gmail.com</p>
 				</address>
 			</div>
 			<div class="col-sm-2 social">
-				<a href="https://www.facebook.com/GeekwiseAcademy/">
+				<a href="https://www.facebook.com/">
 					<i class="fab fa-facebook fa-2x"></i>
-					<span class="hidden-xs">Facebook</span>
+					<span class="hidden-xs"> Facebook</span>
 				</a>
 			</div>
-			<div class="col-sm-2 social">
-				<a href="#"><i class="fab fa-linkedin fa-2x">
-				</i><span class="hidden-xs">LinkedIn</span>
+			<div class="col-sm-1 social">
+				<a href="https://www.linkedin.com/in/mary-benotti-23565055/"><i class="fab fa-linkedin fa-2x">
+				</i><span class="hidden-xs"> LinkedIn</span>
 				</a>
       </div>
-			<div class="col-sm-2 social">
-				<a href="https://twitter.com/GeekwiseAcademy">
+			<div class="col-sm-1 social">
+				<a href="https://twitter.com/">
 					<i class="fab fa-twitter fa-2x"></i>
-					<span class="hidden-xs">Twitter</span>
+					<span class="hidden-xs"> Twitter</span>
 				</a>
 			</div>
 		  </div>
 		  <div class="row">
 			<div class="col-sm-12 fine-print text-center">
-				<p>&copy;MKCreations. All Rights reserved.</p>
+				<p>&copy; MKCreations 2018 All Rights reserved.</p>
 			</div>
 		</div>
   </footer>
+
+    <!--javascript--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

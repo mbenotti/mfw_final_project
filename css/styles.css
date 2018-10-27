@@ -3,7 +3,6 @@
 body {
   font-family: 'Actor', sans-serif;
   font size: 20px;
-  overflow: hidden;
 }
 .container-fluid-top {
   height: 110px;
@@ -11,11 +10,8 @@ body {
 }
 .container-logo {
   width: 40%;
-  height: 100px;
-  margin-top: 7px;
-}
-.logo {
   height: 90px;
+  margin-top: 5px;
 }
 .nav {
   width: 55%;
@@ -28,7 +24,7 @@ body {
   color: #fff;
 }
 .container-fluid-jumbo {
-  height: 500px;
+  height: 600px;
   background-image: url(../img/keyboard_cropped.jpg);
   background-position: center;
   background-size: cover;
@@ -42,15 +38,142 @@ body {
 }
 .jumbotron h1 {
   color: #1d4fba;/*color royal blue*/
-  text-shadow: 1px 1px 5px #fff;
+  text-shadow: 1px 1px 3px #fff;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 5em;
 }
 .jumbotron p {
   color: #fff;
 }
-.pep-info {
+/************Carousel Styling STARTS************/
+.wrap {
+  min-height: 100vh;
+}
+.carousel {
+  margin-bottom: 30px;
+  height: 600px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.carousel-caption {
+  z-index: 10;
+  width: 45%;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-caption h1 {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 3em;
+  text-shadow: 1px 1px 3px #fff;
+  margin-bottom: 10px;
+}
+.main-page {
+  text-align: justify;
+  padding-bottom: 150px;
+}
+.carousel-inner .item {
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+}
+.main_img1 {
+  background-image: url(../img/background_white_blue.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ed-page {
+  width: 60%;
+  padding-bottom: 150px;
+}
+.main_img2 {
+  background-color: #949dac; /*#1d4fba;/*color royal blue*/
+}
+.csuf {
+  max-width: 200px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.nyit {
+  max-width: 200px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.ucd {
+  max-width: 175px;
+  margin-bottom: 15px;
+}
+.gwa {
+  max-width: 150px;
+}
+.main_img3 {
+  background-image: url(../img/background_lambs_ear.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mkc_logo {
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-caption>.aspire-page {
+  z-index: 10;
+  width: 75%;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aspire-page {
+  background-color: rgba(20,20,20,0.5);
+  border-radius: 15px;
+}
+.btn-primary {
+  color: #fff; /*color #fff is white*/
+  background-color: darkslategray;
+  border-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-primary:hover {
+  background-color: #fff; /*color #fff is white*/
+  color: darkslategray;
+  border-color: transparent;
+}
+.carousel-caption p {
+  color: #f7f7f7; /*color is whitesmoke*/
+  font-size: 16px;
+}
+/************Carousel Styling ENDS************/
+.wordart {
+  max-height: 600px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+/************Footer Styling STARTS************/
+.container-fluid-footer {
+  background-color: #1d4fba;/*color royal blue*/
+  height: 150px;
+}
+.container-fluid-footer a {
+  font-style: italic;
+}
+.logo {
+  max-height: 100px;
+  margin-top: 10px;
+}
+.contact-info {
+  color: #fff;
+  margin-top: 10px;
+}
+.social {
+  margin-top: 30px;
 }
 .fine-print {
   font-family: 'La Belle Aurore', cursive;
-  color:  #1d4fba;/*color royal blue*/
+  color:  #fff;
 }
+/************Footer Styling ENDS************/

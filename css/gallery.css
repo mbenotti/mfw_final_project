@@ -1,0 +1,20 @@
+#gallery1 .container-fluid {
+  height: 500px;
+}
+#gallery1 .thumbnail {
+  border: 2px double gray;
+  max-height: 350px;
+  max-width: 350px;
+}
+.divider {
+  background-color: #1d4fba;/*color royal blue*/
+  height: 20px;
+}
+#gallery2 .container {
+  height: 460px;
+}
+#gallery2 img-responsive {
+  border: 2px double gray;
+  max-height: 350px;
+  max-width: 350px;
+}
